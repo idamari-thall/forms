@@ -1,0 +1,46 @@
+body {
+    background-color: #ffb039;
+    width: 100%;
+}
+
+.container {
+    width: 800px;
+    background-color: #be0909;
+}
+
+form {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(254, 255, 255, 0.98);
+}
+
+button {
+    width: 202px;
+    height: 48px;
+    background-color: #468189;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+    border: #468189 solid 1px;
+    border-radius: 24px;
+}
+
+/* background left #BE0909
+background right #FFB039
+button #468189
+font-family: 'Roboto', sans-serif; */
+
+/* beskrivande text 
+letter-spacing: 0.1em;
+text-transform: uppercase;
+ifylld text 
+letter-spacing: 0.3em; */
