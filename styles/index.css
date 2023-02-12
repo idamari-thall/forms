@@ -1,16 +1,36 @@
+/* bildens position och eventuellt bakgrunden? */
+
 body {
     background-color: #ffb039;
     width: 100%;
+    display: flex;
 }
 
 .container {
-    width: 800px;
+    width: 100%;
+    max-width: 65%;
+    min-width: 600px;
+    min-height: 600px;
     background-color: #be0909;
+    padding: 20px;
+    position: absolute;
+    z-index: 0;
+
 }
 
-input {
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+input,
+textarea {
     background-color: #be0909;
-    width: 400px;
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid #9dbebb;
+    padding: 15px;
+    margin: 20px 0;
 }
 
 label {
@@ -24,8 +44,7 @@ label {
     text-transform: uppercase;
 }
 
-::placeholder,
-[placeholder] {
+::placeholder {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -34,6 +53,16 @@ label {
     letter-spacing: 0.3em;
     color: rgba(254, 255, 255, 0.98);
 }
+
+[placeholder] {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(254, 255, 255, 0.98);
+}
+
 
 button {
     width: 202px;
@@ -50,4 +79,16 @@ button {
     color: #fff;
     border: #468189 solid 1px;
     border-radius: 24px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #468189;
+}
+
+img {
+    position: absolute;
+    z-index: 1;
+    margin-left: 50%;
 }
