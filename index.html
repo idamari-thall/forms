@@ -16,19 +16,17 @@
 <body>
     <div class="container">
         <form action="">
-            <label for="name">full name</label required><br>
-            <!-- Det går att submit utan att fylla i denna. Varför? -->
-            <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+            <label for="name">full name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
             <label for="email">email</label><br>
             <input type="email" id="email" name="email" placeholder="Enter your e-mail"><br>
             <label for="regarding">message regarding</label><br>
             <input type="text" id="regarding" name="regarding" placeholder="Enter what your message is regarding"><br>
             <label for="msg">message</label><br>
-            <textarea id="msg" name="msg" placeholder="Enter your message" rows="5" maxlength="600"> </textarea><br>
-            <!-- Placeholdern syns inte i formuläret. Vet du varför? -->
+            <textarea id="msg" name="msg" placeholder="Enter your message" rows="5" maxlength="600"></textarea><br>
             <label for="robot">I am not a robot</label>
             <input type="checkbox" id="robot" name="robot" required><br>
-            <button type="submit" disabled</button>send message</button>
+            <button type="submit" disabled> Send message</button>
         </form>
 
     </div>
